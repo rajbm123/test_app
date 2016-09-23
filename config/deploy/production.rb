@@ -1,7 +1,7 @@
 set :production
 
 
-server '103.14.196.158', user: 'gcn', roles: %w{web app db}
+server '103.14.196.158', user: 'root', roles: %w{web app db}
 
 
 # server-based syntax
