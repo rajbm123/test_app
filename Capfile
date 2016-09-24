@@ -22,7 +22,7 @@ require "capistrano/deploy"
 
  require 'capistrano/bundler'
  require 'capistrano/rails'
- require 'capistrano/passenger'
+ require 'capistrano/passenger/no_hook'
 # require 'capistrano/rvm'
 # require 'capistrano/chruby'
 # 
