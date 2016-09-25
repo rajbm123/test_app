@@ -3,13 +3,13 @@ lock '3.6.1'
 
 set :application, 'test_app'
 set :repo_url, 'git@github.com:rajbm123/test_app.git'
-set :passenger_restart_with_touch, true
+#set :passenger_restart_with_touch, true
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, '/home/deploy/test_app'
+set :deploy_to, '/home/gcn/test_app'
 # Default value for :scm is :git
 # set :scm, :git
 
